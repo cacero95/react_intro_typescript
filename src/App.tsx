@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import { Functions } from "./typescript/Functions"
+// import { ObjectsLiteral } from "./typescript/ObjectsLiteral"
+// import { Counter } from "./components/Counter"
+// import { BasicTypes } from './typescript/BasicTypes';
+// import { CounterCustomHook } from './components/CounterCustomHook';
+// import { Login } from "./components/Login"
+// import { Users } from './components/Users';
+// import { Charts } from "./components/Charts"
+// import { DoubleBar } from "./components/DoubleBar"
+// import { TripleBars } from "./components/TripleBars"
+import { Forms } from './components/Forms';
 
-function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "mt-2">
+      <h1>Introduction react with typescript</h1>
+      <hr/>
+      {/* <BasicTypes/> */}
+      {/* <ObjectsLiteral/> */}
+      {/* <Functions/> */}
+      {/* <CounterCustomHook/> */}
+      {/* <Login/> */}
+      {/* <Charts/>
+      <TripleBars/> */}
+      {/* <Users/> */}
+      <Forms/>
     </div>
-  );
+  )
 }
-
-export default App;
